@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CANALBOX</title>
+    <link rel="stylesheet" href="dist/app.css">
+</head>
+
+<body>
+    <header class="header layout">
+        <div class="header_background"></div>
+        <a href="https://www.canalbox.bf" class="header_logo">
+            <img src="dist/assets/img/logo_canalbox1.svg" alt="canalbox">
+        </a>
+        <div class="header_infos">
+            <h1 class="header_titre">Votre abonnement canalbox est arrivé à échéance.</h1>
+            <div class="header_texte">Pour continuer à profiter du très haut débit en illimité, c'est par ici</div>
+        </div>
+    </header>
+    <main class="main layout">
+
+        <!-- BURKINA FASSO -->
+        <div class="content">
+            <ul class="content_liste">
+                <li class="content_item">
+                    <h2 class="content_titre">Réabonnez-vous <br class="mobile">en ligne</h2>
+                    <ul class="partenaire">
+                        <li class="partenaire_item">
+                            <img class="partenaire_logo" src="dist/assets/img/logo_canalbox.png" width="224" alt="CanalBox">
+                            <p class="partenaire_texte">Depuis votre espace client accessible depuis le site internet CANALBOX</p>
+                            <p class="partenaire_mention">www.canalbox.bf</p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="content_item">
+                    <h2 class="content_titre">Ou en boutique</h2>
+                    <ul class="partenaire">
+                        <li class="partenaire_item">
+                            <img class="partenaire_logo" src="dist/assets/img/logo_canalstore2.svg" width="182" alt="CANAL+ Store">
+                            <p class="partenaire_texte">Rendez-vous<br>
+                                dans les boutiques Canal+</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <div class="bottomLine">A très, très vite !</div>
+        <div class="contact">
+            <p class="contact_titre">Contact</p>
+            <p class="contact_telephone">25 32 73 06</p>
+        </div>
+    </main>
+    <footer class="footer layout">
+        <div class="footer_contacts">
+            <div class="footer_rs">
+                <p class="footer_rs_titre">Suivez-nous :</p>
+                <ul class="footer_rs_liste">
+                    <li class="footer_rs-facebook"><a href="https://www.facebook.com/canalboxburkina/" target="_blank"></a></li>
+                </ul>
+            </div>
+            <ul class="footer_agences">
+                <li><a href="https://www.canalbox.bf/contact/" target="_blank">Contactez-nous</a></li>
+                <li><a href="#" target="_blank">Nos Agences</a></li>
+            </ul>
+        </div>
+        <ul class="footer_liens">
+            <li><a href="https://www.canalbox.bf/gva-content/uploads/sites/6/2022/05/Nouvelles-CGV-GVA-Burkina-Faso.pdf" target="_blank">Mentions légales</a></li>
+            <li><a href="https://www.canalbox.bf/questions-frequentes/" target="_blank">FAQ</a></li>
+        </ul>
+    </footer>
+    <script src="dist/app.js"></script>
+</body>
+
+</html>
